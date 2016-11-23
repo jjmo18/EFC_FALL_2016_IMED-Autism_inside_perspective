@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* autism-inside-perspective base stylesheet
+	
+
+*/
+/* body styles*/
+
+
+html {
+	font-size:16px;
+	width:100%;
+}
+
+body{
+	width:95%;
+	height: 100%;
+	margin:auto;
+}
+
+
+/*list styles */
+
+
+h4 {
+	font-size:22.4px;
+	font-size:1.4rem;
+}
+h3 {
+	font-size: 24px;
+	font-size:1.5rem;
+	
+}
+h2 {
+	font-size:30px;
+	font-size:1.875rem;
+}
+h1 {
+	font-size:32px;
+	font-size:2.25rem;
+	text-align:center;
+	
+}
+
+/*navigation styles*/
+nav ul, nav ul li {
+	display:inline;
+}
+nav ul li {
+	
+	
+}
+
+nav ul li a {
+	font-size:2rem;
+	
+}
+nav ul li img {
+	width:98%;
+}
+
+/* typographical styles */
+article header, article header h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* image styles */
+
+figure img {
+	width:100%;
+}

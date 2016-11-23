@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* autism-inside-perspective base stylesheet
+	filename:grids.css
+	author: Jordan Morris
+	date created:11/22/2016 2:56PM CST
+
+*/
+
+
+
+/*list styles */
+div[class^='col-'] {
+	float:left;
+	margin-left:.5;
+	margin-right:.5%;
+	/*
+	padding-right:4px;
+	padding-left:4px;
+	
+	*/
+	/*outline: 1px solid black;*/
+}
+div.row {
+	clear:both;
+	/*outline: 2px dashed white;*/
+	
+	/*margin:4px 0px;*/
+
+}
+div.row::after {
+	display:table;
+	content:"";
+	clear:both;
+}
+body div.row:not(:first-child) {
+	margin-top:1%;
+}
+body div.row:not(:last-child){
+	margin-bottom:1%;
+}
+.col-12 {
+	width:99%;
+}
+.col-11 {
+	width:89.833%;
+}
+
+.col-10{
+	width:81.667%;
+}
+.col-9 {
+	width:73.5%;
+}
+.col-8 {
+	width:65.333%;
+}
+.col-7 {
+	width:57.166%;
+	
+}
+.col-6 {
+	width:49%;
+}
+.col-5 {
+	width:40.833%
+}
+.col-4 {
+	width:32.667%;
+}
+.col-3 {
+	width:25%;
+}
+.col-2 {
+	width:16.333%;
+}
+.col-1 {
+	width:8.167%;
+}
